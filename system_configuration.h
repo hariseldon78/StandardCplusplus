@@ -18,6 +18,11 @@
 #define __BUILD_EXTRA_LIBRARIES__ ""
 #define __HAVE_DOT_CONFIG__ 1
 
+// roby!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#define __UCLIBCXX_EXCEPTION_SUPPORT__ 1
+
+
+
 /*
  * String and I/O Stream Support
  */
@@ -48,3 +53,4 @@
 #define __BUILD_STATIC_LIB__ 1
 #define __BUILD_ONLY_STATIC_LIB__ 1
 #undef __DODEBUG__
+

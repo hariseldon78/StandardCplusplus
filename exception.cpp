@@ -23,7 +23,7 @@
 //We can't do this yet because gcc is too stupid to be able to handle
 //different implementations of exception class.
 
-#undef __UCLIBCXX_EXCEPTION_SUPPORT__
+// #undef __UCLIBCXX_EXCEPTION_SUPPORT__
 
 #ifdef __UCLIBCXX_EXCEPTION_SUPPORT__
 
